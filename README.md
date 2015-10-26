@@ -1,5 +1,7 @@
 # Binomial European Option Pricing in - `R`
 
+with example of parallel CPU usage in `par-binomial.R`
+
 ## Quick Start:
 
 The following function is provided:
@@ -55,3 +57,5 @@ Where:
 - `call$option` is binomial option tree matrix
 - `call$price` is option price
 - `call$delta` is option delta
+
+`problems.R` contains usages of this package. `par-binomial.R` demonstrates a parallel usage of this package.
